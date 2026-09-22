@@ -1,0 +1,27 @@
+# Building a Personal Research Infrastructure
+
+For a long time I used Kali Linux mainly for CTF challenges and labs.
+
+Today my goal is different.
+
+I am interested in building a long-term research environment focused on:
+
+- Linux
+- Security Research
+- JavaScriptCore
+- Fuzzing
+- Automation
+- Engineering Infrastructure
+
+The operating system is only one part of the ecosystem.
+
+The more important goal is creating workflows, documentation and reusable tools.
+
+Current areas of work:
+
+- exploit-dev-auto
+- CUDA JSC Fuzzer
+- Personal engineering website
+- Research notes and documentation
+
+This website serves as a place to document ideas, experiments and ongoing projects.
