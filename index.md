@@ -1,3 +1,49 @@
-# CaptureCut — инженерный сайт
+# CaptureCut - engineering website
 
-Сайт в разработке. Скоро здесь появятся проекты, CTF-разборы и инженерные материалы.
+---
+layout: default
+title: Home
+---
+
+Independent engineer and security enthusiast from Sakhalin.
+
+## Interests
+
+- Security Research
+- Browser Internals
+- JavaScriptCore
+- GPU Computing
+- Automation
+- Web Development
+
+## Current Projects
+
+### exploit-dev-auto
+
+Research automation framework focused on crash triage, reproduction and workflow automation.
+
+Status: Early Development
+
+### CUDA JSC Fuzzer
+
+Experimental GPU-assisted fuzzing infrastructure for JavaScriptCore research.
+
+Status: Research
+
+## Research Areas
+
+- Browser Security
+- Fuzzing
+- Reverse Engineering
+- Linux
+- Developer Infrastructure
+
+## Philosophy
+
+I enjoy building systems, tools and infrastructure that help automate research workflows and engineering tasks.
+
+## Links
+
+- GitHub
+- Projects
+- Research Notes
