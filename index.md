@@ -1,5 +1,3 @@
-# CaptureCut - engineering website
-
 ---
 layout: default
 title: Home
