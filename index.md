@@ -42,6 +42,6 @@ I enjoy building systems, tools and infrastructure that help automate research w
 
 ## Links
 
-- GitHub
+- [GitHub](https://github.com/CaptureCut)
 - Projects
 - Research Notes
