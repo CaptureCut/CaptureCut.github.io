@@ -1,3 +1,8 @@
+---
+title: Research Note #003
+layout: page
+---
+
 Research Note #003 - Reflected XSS (Burp Lab Task #001)
 
 Overview:
