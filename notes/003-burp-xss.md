@@ -54,7 +54,7 @@ Exploitation (Burp Suite):
 
 Payload 1:
 ```
-"><img src=x onerror=alert(1)>
+&lt;img src=x onerror=alert(1)&gt;
 ```
 
 Причина:
@@ -62,7 +62,7 @@ Payload 1:
 
 Payload 2:
 ```
-<scr<script>ipt>alert(1)</scr<script>ipt>
+&lt;scr&lt;script&gt;ipt&gt;alert(1)&lt;/scr&lt;script&gt;ipt&gt;
 ```
 
 Причина:
