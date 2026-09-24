@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Feedback</title>
+</head>
+<body>
+<h2>Feedback Form</h2>
+
+<form method="GET" action="">
+<input type="text" name="msg" placeholder="Your message">
+<button type="submit">Send</button>
+</form>
+
+<p>Your message:</p>
+<div id="output"></div>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+let msg = params.get("msg") || "";
+
+msg = msg.replace("<", "&lt;");
+
+document.getElementById("output").innerHTML = msg;
+</script>
+</body>
+</html>
