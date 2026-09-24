@@ -12,7 +12,7 @@ Task Description:
 Мини‑страница принимает параметр msg через GET и выводит его в DOM. Есть наивный фильтр, который заменяет только первый символ "<" на "&lt;", но не защищает от XSS. Это создаёт DOM‑based reflected XSS.
 
 Vulnerable Code (index.html):
-
+```
 {% raw %}
 <!DOCTYPE html>
 <html lang="en">
@@ -58,7 +58,7 @@ Payload 1:
 {% raw %}
 "><img src=x onerror=alert(1)>
 {% endraw %}
-
+```
 Причина:
 Фильтр заменяет только первый "<". Строка закрывает атрибут, вставляет img, срабатывает onerror.
 
