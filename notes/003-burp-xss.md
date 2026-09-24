@@ -12,7 +12,7 @@ Task Description:
 Мини-страница принимает параметр msg через GET и выводит его в DOM. В коде используется innerHTML и наивная фильтрация "<", что приводит к DOM-based XSS.
 
 Полный HTML-код задачи находится в репозитории:
-lab/xss/001-basic-reflected/index.html
+[lab/xss/001-basic-reflected/index.html](https://github.com/CaptureCut/CaptureCut.github.io/blob/main/lab/xss/001-basic-reflected/index.html)
 
 Vulnerable Fragment:
 Фрагмент уязвимого кода:
