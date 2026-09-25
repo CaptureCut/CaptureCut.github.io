@@ -1,3 +1,8 @@
+---
+title: subfinder-installation(progress)
+id: 005
+---
+
 005 - Subfinder
 
 Цель:
