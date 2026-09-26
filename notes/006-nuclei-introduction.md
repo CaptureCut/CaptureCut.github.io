@@ -1,5 +1,5 @@
 ---
-title: 006-nuclei-introduction
+title: nuclei introduction
 id: 006
 ---
 
