@@ -1,3 +1,8 @@
+---
+title: go-installation
+id: 008
+---
+
 008. Установка Go в Kali Linux
 
 Дата: 2026-09-27
