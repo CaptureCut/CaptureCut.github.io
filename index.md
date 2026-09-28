@@ -14,20 +14,6 @@ Independent engineer and security enthusiast from Sakhalin.
 - Automation
 - Web Development
 
-## Current Projects
-
-### exploit-dev-auto
-
-Research automation framework focused on crash triage, reproduction and workflow automation.
-
-Status: Early Development
-
-### CUDA JSC Fuzzer
-
-Experimental GPU-assisted fuzzing infrastructure for JavaScriptCore research.
-
-Status: Research
-
 ## Research Areas
 
 - Browser Security
