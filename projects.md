@@ -9,41 +9,6 @@ A collection of engineering, security research and infrastructure projects.
 
 ---
 
-## exploit-dev-auto
-
-Research automation framework for vulnerability analysis and crash triage.
-
-Current modules:
-
-- Runner
-- Triage
-- Repro
-- PoC
-
-Goals:
-
-- Automate crash analysis workflows
-- Reduce manual research effort
-- Build reproducible research pipelines
-
-Status: Active Development
-
----
-
-## CUDA JSC Fuzzer
-
-Experimental GPU-assisted fuzzing research for JavaScriptCore.
-
-Research areas:
-
-- CUDA-based workload generation
-- JavaScriptCore internals
-- Directed fuzzing
-- High-throughput testcase generation
-
-Status: Research
-
----
 
 ## Sakhalin Web Development
 
