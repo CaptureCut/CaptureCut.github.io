@@ -17,9 +17,6 @@ Current areas of interest:
 - Web Development
 
 ## Projects
-
-- exploit-dev-auto
-- CUDA JSC Fuzzer
 - Research Infrastructure
 - Sakhalin Web Development
 
