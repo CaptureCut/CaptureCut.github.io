@@ -1,0 +1,102 @@
+---
+title: Burp Suite NullPointerException Fix
+id: 011
+---
+
+Title: Burp Suite - First Intercepted HTTP Request
+
+Date: 2026-10-02
+
+Goal
+----
+Verify that Burp Suite successfully intercepts browser traffic.
+
+Setup
+-----
+Burp Suite running on Kali Linux.
+
+Browser traffic configured to pass through Burp proxy.
+
+Burp listener:
+
+127.0.0.1:8080
+
+Procedure
+---------
+1. Opened Burp Suite.
+2. Enabled:
+
+Proxy -> Intercept -> ON
+
+3. Opened:
+
+http://neverssl.com
+
+4. Burp intercepted request:
+
+GET / HTTP/1.1
+Host: neverssl.com
+
+Observation
+-----------
+Initial intercepted traffic was:
+
+POST / HTTP/1.1
+Host: ocsp.r2m04.amazontrust.com
+
+This was not website traffic.
+
+It was an OCSP request used by Firefox to verify certificate status.
+
+A normal web request appeared after opening:
+
+http://neverssl.com
+
+Captured Request
+----------------
+
+GET / HTTP/1.1
+Host: neverssl.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+Key Headers
+-----------
+Host
+    Target website.
+
+User-Agent
+    Browser and operating system information.
+
+Accept
+    Preferred response content types.
+
+Accept-Language
+    Preferred response language.
+
+Accept-Encoding
+    Supported compression methods.
+
+Exercise
+--------
+Modified:
+
+User-Agent
+
+Example:
+
+User-Agent: BurpLearning
+
+Forwarded modified request through Burp.
+
+Result
+------
+Successfully intercepted and inspected a real HTTP request.
+
+Learned how browser requests appear in raw HTTP format.
+
+Confirmed that Burp is working correctly.
