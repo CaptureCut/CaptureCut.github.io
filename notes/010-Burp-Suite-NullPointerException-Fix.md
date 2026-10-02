@@ -1,3 +1,8 @@
+---
+title: Burp Suite NullPointerException Fix
+id: 010
+---
+
 Title: Burp Suite - NullPointerException Fix (Damaged .BurpSuite Profile)
 
 Date: 2026-10-02
