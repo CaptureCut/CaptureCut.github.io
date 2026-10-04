@@ -1,3 +1,8 @@
+---
+title: clang-compilation-pipeline
+id: 013
+---
+
 Title: Clang-Compilation-Pipeline-and-Optimization
 
 Date: 2026-10-02
